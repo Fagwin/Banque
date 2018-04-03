@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(https://banque.meilleurtaux.com/images/banques/banque-en-ligne.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: blue;
+    color: black;
+    font-size: 18px;
+}
+
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: blue;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: black;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: grey;
+  border: .05rem solid grey;
+}
+
+.image{
+	position:center;
+}
+
+.cover-container {
+  max-width: 42em;
+  margin: 10%;
+  text-align: center;
+}
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 1.5rem 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+.main-col-md-9{
+	margin-left: 250px;
+	margin-right: 250px;
+	
+}
+	
+.col-sm-6{
+	background-color: #cdcdcd;
+	border-width:1px;
+ 	border-style:solid;
+ 	border-color:black;
+ 	position : center;
+    padding: 20px;
+    margin-bottom:20px;
+    margin-right:5px;
+}
+
+.iconeactu{
+	width: 40px;
+    height: 40px;
+}
+
+.lientitre{
+	
+	color:#e81116;
+}
+.imgactu{
+	width: 250 px;
+    height: 175px;
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+    width: cover;
+    max-width: none;
+    /*position: center;*/
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+* {
+    box-sizing: border-box;
+}

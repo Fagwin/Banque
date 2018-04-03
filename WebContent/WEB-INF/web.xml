@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://jva.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="3.0">
+  <servlet>
+    <servlet-name>Accueil</servlet-name>
+    <servlet-class>com.octest.servlets.Accueil</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Accueil</servlet-name>
+    <url-pattern>/en</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AccueilFr</servlet-name>
+    <servlet-class>com.octest.servlets.AccueilFr</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AccueilFr</servlet-name>
+    <url-pattern>/fr</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Actu</servlet-name>
+    <servlet-class>com.octest.servlets.Actu</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Actu</servlet-name>
+    <url-pattern>/en/Actualite</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ActuFr</servlet-name>
+    <servlet-class>com.octest.servlets.ActuFr</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ActuFr</servlet-name>
+    <url-pattern>/fr/Actualite</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>EspaceClient</servlet-name>
+    <servlet-class>com.octest.servlets.EspaceClient</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EspaceClient</servlet-name>
+    <url-pattern>/fr/Espace-Client</url-pattern>
+  </servlet-mapping>
+</web-app>
