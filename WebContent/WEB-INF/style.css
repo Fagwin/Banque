@@ -1,99 +1,269 @@
 @charset "UTF-8";
 
-body{
-    background-image: url(https://banque.meilleurtaux.com/images/banques/banque-en-ligne.jpg);
-    -webkit-background-size: cover;
+body {
+	background-image:
+		url(https://banque.meilleurtaux.com/images/banques/banque-en-ligne.jpg);
+	    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-color: blue;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     color: black;
+    padding: 20px;
     font-size: 18px;
+    font-family: Trattatello, fantasy;
 }
 
+label
+{
+    display: block;
+    width: 300px;
+    text-align: left;
+}
+
+input
+{
+    width: 400px;
+}
+
+#formInscription
+{
+	background-color: rgba(0, 0, 0, 0.25);
+    display:block;
+    width:800px;
+    line-height:30px;
+    text-align:center;
+     font-family: Apple Chancery, cursive;
+    vertical-align:middle;
+    color:white;
+    text-decoration:none;
+	margin: auto;
+	padding:40px;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.formCompte
+{
+	background-color: rgba(0, 0, 0, 0.25);
+    display:block;
+    width:600px;
+    line-height:30px;
+    font-family: Apple Chancery, cursive;
+    vertical-align:middle;
+    color:white;
+    text-decoration:none;
+	margin: auto;
+	padding:40px;
+    border-radius: 20px;
+    border-style: solid;
+}
 
 /* Links */
-a,
-a:focus,
-a:hover {
-  color: blue;
+a, a:focus, a:hover {
+	color: blue;
 }
 
 /* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: black;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: grey;
-  border: .05rem solid grey;
+.btn-secondary, .btn-secondary:hover, .btn-secondary:focus {
+	color: black;
+	text-shadow: none; /* Prevent inheritance from `body` */
+	background-color: grey;
+	border: .05rem solid grey;
 }
 
-.image{
-	position:center;
+.fond {
+	position:absolute; 
+	top:230px; 
+	left:0; 
+	height:70px; 
+	width: 451px; 
+	font-size:18px; 
+	font-family:Georgia, serif ; 
+	font-color:grey; 
+	filter:alpha(opacity=55); 
+	-moz-opacity:0.55; 
+	opacity: 0.55; 
+	color:blue; 
+	padding:5px; 
+	margin:0; 
+	overflow:hidden;
+}
+
+div#slider { 
+	width: 80%; 
+	max-width: 1000px; 
+	overflow: hidden }
+	
+
+
+#wrapper {
+	width:980px;
+	margin: 0 auto 0 auto;
+}
+
+#main {
+	float:left;
+	width:75%;
+	margin: 0 0 50px 0;
+}
+
+#sidebar {
+	float:left;
+	width:22%;
+	margin-left:1%;
+	margin-top:1em;
+}
+
+footer {
+	clear:both;
+}
+
+/* DEBUT CSS POUR LA PAGE SERVICE DE LA BANQUE */
+
+#wrapper>nav {
+	padding:1em;
+	border:4px double #444;
+	margin-top:1em;
+	background-image:url(http://ak.picdn.net/assets/newsletter/160/metal8.jpg);
+}
+
+nav ul li {
+	display:inline-block;
+}
+
+article {
+	border:4px double #444;
+	margin:1em;
+	padding:1em;
+	background:#fff;
+}
+
+article h2 {
+	margin-top: 1em;
+}
+
+article header, article footer {
+	border:4px double #ccc;
+	padding:1em;
+}
+
+article header {
+	background-image:url(http://ak.picdn.net/assets/newsletter/160/metal8.jpg);
+}
+
+aside {
+    border:1px dashed #444;
+}
+
+article aside {
+	background:#fff;
+	margin:1em 3em;
+	padding:0.5em;
+	border:1px dashed #ccc;
+}
+
+/* Marquage spécifique */
+
+article, footer, header, aside, nav {
+	position:relative;
+}
+
+span.elem {
+	background:#c00;
+	color:white;
+	position:absolute;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0.5em;
+	z-index:100;
+	opacity:0.5;
+}
+
+article {
+	
+	background-image:url(http://www.ibblocal85.org/wp-content/uploads/2015/03/metalbg.jpg); /* https://pbs.twimg.com/media/C6fcuz_VYAEEUt_.jpg */
+}
+/* FIN CSS POUR LA PAGE SERVICE DE LA BANQUE */
+
+.image {
+	position: center;
 }
 
 .cover-container {
-  max-width: 42em;
-  margin: 10%;
-  text-align: center;
+	max-width: 42em;
+	margin: 10%;
+	text-align: center;
 }
 
 /*
  * Cover
  */
 .cover {
-  padding: 1.5rem 1.5rem;
-}
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
+	padding: 1.5rem 1.5rem;
 }
 
-.main-col-md-9{
+.cover .btn-lg {
+	padding: .75rem 1.25rem;
+	font-weight: 700;
+}
+
+.main-col-md-9 {
 	margin-left: 250px;
 	margin-right: 250px;
-	
 }
-	
-.col-sm-6{
+
+.col-sm-6 {
 	background-color: #cdcdcd;
-	border-width:1px;
- 	border-style:solid;
- 	border-color:black;
- 	position : center;
-    padding: 20px;
-    margin-bottom:20px;
-    margin-right:5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	position: center;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-right: 5px;
 }
 
-.iconeactu{
+.iconeactu {
 	width: 40px;
-    height: 40px;
+	height: 40px;
 }
 
-.lientitre{
-	
-	color:#e81116;
+.lientitre {
+	color: #e81116;
 }
-.imgactu{
+
+.imgactu {
 	width: 250 px;
-    height: 175px;
+	height: 175px;
 }
 
 .img-responsive {
-    display: block;
-    height: auto;
-    width: cover;
-    max-width: none;
-    /*position: center;*/
+	display: block;
+	height: auto;
+	width: cover;
+	max-width: none;
+	/*position: center;*/
 }
+
 img {
-    vertical-align: middle;
+	vertical-align: middle;
 }
+
 img {
-    border: 0;
+	border: 0;
 }
+
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+b{
+	 font-family:arial, sans-serif;
+ font-size:250;
+ font-weight: bold;
+ font-weight: normal; 
 }
